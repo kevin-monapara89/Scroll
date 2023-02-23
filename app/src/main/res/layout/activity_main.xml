@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtvew"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:text="Nature Photos"/>
+
+        <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_5"/>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:max="250"
+        android:progress="250"/>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img_3"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img_4"/>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img_6"/>
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img_7"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
